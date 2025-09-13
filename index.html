@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+       <div class="loading-screen" id="loadingScreen">
+        <div class="loading-logo">Portfolio</div>
+        <div class="loader"></div>
+        <div class="loading-text">
+            Loading Portfolio<span class="loading-dots"></span>
+        </div>
+        <div class="loading-progress">
+            <div class="loading-progress-bar"></div>
+        </div>
+    </div>
+
+
+    <header>
+        <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand" href="#"><span class="fs-1 fw-semibold"><</span><span class="fs-1 fw-semibold">NH/</span><span class="fs-1 fw-semibold">></span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+
+                         <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                       
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                
+                </div>
+        </div>
+    </nav>
+    </header>
+
+    <main class="bg-body-tertiary">
+        <section id="hero" class="py-5">
+            <div class="container">
+                <div class="row row-gap-4">
+                    <div class="col-12 col-md-6 d-flex flex-column row-gap-4">
+                        <h1  class="fs-1 fw-bold text-light">Hello, I'm <span class="text-warning">Nadeem Hassan</span></h1>
+                        <p class="text-light">Creative Frontend Developer crafting beautiful, responsive web experiences with modern technologies.</p>
+                        <div class="row row-gap-3">
+                        <div class="col-12 col-lg-6"><button type="button" class="btn btn-primary w-100 rounded-pill">GET IN TOUCH</button></div>
+                        <div class="col-12 col-lg-6"><a href="./CV.pdf" class="btn btn-light w-100 rounded-pill" download>Download CV</a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 justify-content-center align-items-center d-flex ">
+                        <div id="hero_img" class="w-75 mx-auto">
+                            <img src="./imges/my_photo.png" alt="" class="img-fluid rounded-circle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-5"
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 mx-auto text-center">
+                        <h2 class="border-bottom-h2 mx-auto">About Me</h2>
+                        <p class="">Passionate frontend developer with a keen eye for design and user experience</p>
+                        <div class="card mx-auto w-100 shadow rounded-4 p-3 mt-5 translate-y">
+                            <div class="card-body row">
+                                <div class="col-12 col-lg-12 text-start">
+                                    <h3 class="mb-4">
+                                        Frontend Developer & UI/UX Enthusiast
+                                    </h3>
+                                    <p class="my-4">
+I’m a passionate Front-End Developer with strong expertise in HTML, CSS, JavaScript, Bootstrap, and React. I specialize in building responsive, modern, and user-friendly interfaces that transform ideas and designs into seamless digital experiences. With a focus on clean, scalable, and maintainable code, I enjoy solving problems and ensuring that every project I work on balances performance, accessibility, and design. My experience with Bootstrap helps me create adaptive layouts quickly, while React allows me to develop dynamic, component-based applications that scale efficiently.                                    </p>
+                                    <p class="mt-4">
+I’m constantly learning and staying up-to-date with the latest tools and best practices in front-end development, because I believe technology is always evolving and so should developers. Beyond technical skills, I value attention to detail, creativity, and teamwork, and I bring enthusiasm and commitment to every project. For me, front-end development is more than just coding—it’s about crafting smooth and intuitive user experiences that connect people with technology. My long-term goal is to keep growing, take on bigger challenges, and contribute to impactful digital products that make a difference.                                    </p>
+                                </div>
+                                <!-- <div class="col-12 col-lg-6">
+                                    <div class="row align-items-center h-100">
+                                        <div class="col-6 mb-3">
+                                            <div class="text-center">
+                                                <span class="text-primary fs-3 fw-semibold">5+</span>
+                                            <p>Projects Completed</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <div class="text-center">
+                                                <span class="text-primary fs-3 fw-semibold">1+</span>
+                                                <p>Years of Experience</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <div class="text-center">
+                                                <span class="text-primary fs-3 fw-semibold">3+</span>
+                                                <p>Happy Clients</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <div class="text-center">
+                                                <span class="text-primary fs-3 fw-semibold">24/7</span>
+                                                <p>Support</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                   <div class="col-12 text-center">
+                       <h2 class="">Skills & Technologies</h2>
+                       <p class="">Technologies I work with to bring your ideas to life</p>
+                       <div class="row row-gap-4">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card shadow skill-card">
+                                <div class="card-body text-center d-flex flex-column justify-content-start">
+                                    <i class="fab fa-html5"></i>
+                                    <h5 class="mt-3">HTML5</h5>
+                                    <p>Semantic markup and modern HTML standards</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card shadow skill-card">
+                                <div class="card-body text-center d-flex flex-column justify-content-start">
+<i class="fab fa-css3-alt"></i>                                    <h5 class="mt-3">CSS3</h5>
+                                    <p>Advanced styling, animations, and responsive design</p>
+
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ">
+                            <div class="card shadow skill-card">
+                                <div class="card-body text-center d-flex flex-column justify-content-start ">
+<i class="fab fa-js-square"></i>                                    <h5 class="mt-3">JavaScript</h5>
+                                    <p>ES6+, DOM manipulation, and async programming</p>
+
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card shadow skill-card">
+                                <div class="card-body text-center d-flex flex-column justify-content-start">
+<i class="fab fa-react"></i>                                    <h5 class="mt-3">React.js</h5>
+                                    <p>Component-based architecture and state management</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card shadow skill-card">
+                                <div class="card-body text-center d-flex flex-column justify-content-start">
+<i class="fa-brands fa-vuejs"></i>                                    <h5 class="mt-3">Vue.js</h5>
+                                    <p>Progressive framework for building user interfaces</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card shadow skill-card">
+                                <div class="card-body text-center d-flex flex-column justify-content-start">
+<i class="fa-brands fa-sass"></i>                                    <h5 class="mt-3">Sass/SCSS</h5>
+                                    <p>Advanced CSS preprocessing and organization</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card shadow skill-card">
+                                <div class="card-body text-center d-flex flex-column justify-content-start">
+<i class="fa-brands fa-bootstrap"></i>                                    <h5 class="mt-3">Bootstrap</h5>
+                                    <p>Rapid responsive web development framework</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card shadow skill-card">
+                                <div class="card-body text-center d-flex flex-column justify-content-start">
+<i class="fa-brands fa-git-alt"></i>                                    <h5 class="mt-3">Git & GitHub</h5>
+                                    <p>Version control and collaborative development</p>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="services" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Services</h2>
+                        <p>What I can do for you</p>
+                        <div class="row row-gap-4">
+                            <div class="col-12 col-md-6 col-lg-4 ">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                        <h5 class="card-title">Web Development</h5>
+                                        <p class="card-text">Custom websites and web applications built with modern technologies and best practices.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                                        <h5 class="card-title">Responsive Design</h5>
+                                        <p class="card-text">Mobile-first approach ensuring your site looks perfect on all devices and screen sizes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                                        <h5 class="card-title">UI/UX Design</h5>
+                                        <p class="card-text">Creating intuitive and engaging user interfaces that provide exceptional user experiences.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                                        <h5 class="card-title">Performance Optimization</h5>
+                                        <p class="card-text">Speed optimization and performance tuning for lightning-fast loading websites.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                                        <h5 class="card-title">Website Maintenance</h5>
+                                        <p class="card-text">Ongoing support and maintenance to keep your website secure and up-to-date.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                           <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                                        <h5 class="card-title">SEO Optimization</h5>
+                                        <p class="card-text">Search engine optimization to improve your website's visibility and rankings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>My Projects</h2>
+                        <p>A showcase of my recent work and accomplishments</p>
+                        <div class="row">
+                            <!-- <div class="col-lg-4 col-md-6 mb-4"> -->
+                    <!-- <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h4>E-commerce Platform</h4>
+                            <p class="text-muted mb-3">A full-featured e-commerce website with shopping cart, payment integration, and admin panel.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-outline-primary btn-sm">View Demo</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h4>Task Management App</h4>
+                            <p class="text-muted mb-3">A collaborative task management application with real-time updates and team features.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Vuetify</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-outline-primary btn-sm">View Demo</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h4>Weather Dashboard</h4>
+                            <p class="text-muted mb-3">Interactive weather dashboard with location-based forecasts and beautiful visualizations.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">API Integration</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-outline-primary btn-sm">View Demo</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./imges/portfolio_photo.png" class="w-100"  alt="">
+                        </div>
+                        <div class="project-info">
+                            <h4>Portfolio Website</h4>
+                            <p class="text-muted mb-3">A responsive portfolio website showcasing creative design and smooth animations.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Bootstrap</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-outline-primary btn-sm">View Demo</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./imges/qfinder_photo.png" class="w-100" alt="">
+                        </div>
+                        <div class="project-info">
+                            <h4>Q Finder Website</h4>
+                            <p class="text-muted mb-3">Modern website to Explore top-rated certified pros nearby</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="https://nadimhassan09.github.io/Q-Finder/" class="btn btn-outline-primary btn-sm">View Demo</a>
+                                <a href="https://github.com/NadimHassan09/Q-Finder" class="btn btn-outline-secondary btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./imges/my_calculator_photo.png" class="w-100" alt="">
+                        </div>
+                        <div class="project-info">
+                            <h4>My Calculator</h4>
+                            <p class="text-muted mb-3">A simple calculator application built with native JavaScript</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-outline-primary btn-sm">View Demo</a>
+                                <a href="https://github.com/NadimHassan09/My-calculator" class="btn btn-outline-secondary btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            
+            <div class="row">
+            <div class="col-12 text-center">
+            <h2 class="section-title text-white">Contact Me</h2>
+            <div class="w-50 mx-auto">
+                <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary rounded-pill">GET IN TOUCH</button>
+                </form>
+            </div>
+
+            </div>
+            <!-- <div class="col-md-12">
+                <h5>Connect with me:</h5>
+                <p>Email: yourname@example.com</p>
+                <p>LinkedIn: linkedin.com/in/yourname</p>
+                <p>GitHub: github.com/yourname</p>
+            </div> -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center text-white py-3">
+      <p class="mb-0">© 2025 MyPortfolio. All Rights Reserved.</p>
+    </footer>
+    <script>
+        // Loading Screen JavaScript
+        window.addEventListener('load', function() {
+            // Simulate loading time (remove this in production)
+            setTimeout(function() {
+                const loadingScreen = document.getElementById('loadingScreen');
+                const mainContent = document.getElementById('mainContent');
+                
+                // Hide loading screen
+                loadingScreen.classList.add('hidden');
+                
+                // Show main content
+                mainContent.classList.add('loaded');
+                
+                // Remove loading screen from DOM after animation
+                setTimeout(function() {
+                    loadingScreen.remove();
+                }, 500);
+            }, 3000); // 3 second loading time (adjust as needed)
+        });
+
+        // Alternative: Hide loading when everything is actually loaded
+        // window.addEventListener('load', function() {
+        //     const loadingScreen = document.getElementById('loadingScreen');
+        //     const mainContent = document.getElementById('mainContent');
+        //     
+        //     loadingScreen.classList.add('hidden');
+        //     mainContent.classList.add('loaded');
+        //     
+        //     setTimeout(function() {
+        //         loadingScreen.remove();
+        //     }, 500);
+        // });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
