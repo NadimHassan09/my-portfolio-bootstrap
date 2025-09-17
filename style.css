@@ -47,6 +47,7 @@
     padding: 10px 30px !important;
     font-size: 1.2rem !important;
 }
+
 .border-bottom-h2{
     display: inline-block;
     border-bottom: 4px solid #6366f1 !important;
@@ -111,7 +112,48 @@ section p{
             color: white;
         }
 
-          /* Projects Section */
+/* Projects Section */
+#projects{
+    position: relative;
+}
+#carousel1{
+    overflow: visible !important;
+
+}
+ #carousel1 .carousel-control-prev, #carousel1 .carousel-control-next{
+    background-color: #2d3748;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+} 
+ #carousel1 .carousel-control-prev{
+    position: absolute;
+    left: 0px;
+ }
+.carousel-inner{
+        /* overflow: visible !important; */
+
+}
+.carousel-item {
+
+  transform: scale(0.8); 
+  transition: all 0.6s ease-in-out;
+}
+
+
+
+ .carousel-indicators{
+    bottom: -20px;
+}
+.carousel-indicators button{
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+    border-radius: 50%;
+    background-color: #2d3748 !important;
+
+} 
+
         .project-card {
             background: white;
             border-radius: 20px;
@@ -133,16 +175,7 @@ section p{
             overflow: hidden;
         }
 
-        /* .project-image::after {
-            content: 'Project Screenshot';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 1.2rem;
-            font-weight: 600;
-        } */
+
 
         .project-info {
             padding: 30px;
@@ -287,3 +320,23 @@ footer{
         .main-content.loaded {
             opacity: 1;
         }
+
+        .social-circle {
+    align-items: center;
+  }
+
+  .soc-btn {
+    width: 30px !important;
+    height: 30px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+    text-decoration: none !important;
+    transition: transform 220ms ease, box-shadow 220ms ease, background 220ms ease !important;
+    color: #ffffff !important;
+    font-size: 12px !important;
+    border: 2px solid transparent !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
