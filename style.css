@@ -201,6 +201,10 @@ section p{
 #contact{
 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
 }
+#contact #form-btn{
+    min-width: 25% !important;
+}
+/*form*/
 footer{
     background-color: #2d3748 !important;
 }
